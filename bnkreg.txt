@@ -1,0 +1,2 @@
+Se ingreso:: 189
+Se ingreso:: 1000
