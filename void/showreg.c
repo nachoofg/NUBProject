@@ -5,7 +5,7 @@ void showreg()
 {
     system("cls");
     int algo;
-    FILE *file = fopen("./bnkreg.txt", "r");
+    FILE *file = fopen("./movelog.txt", "r");
     if (file)
     {
         while ((algo = getc(file)) != EOF)
