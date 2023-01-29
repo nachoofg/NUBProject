@@ -14,7 +14,7 @@
 int main()
 {
     int prin;
-    printf("Bienvenido al banco virtual hecho C, mas conocido como bnkc\n\n1) registro\n2) ingresar dinero\n3) quitar dinero\n4) establecer dinero\nQue accion quiere realizar usted?");
+    printf("Bienvenido al banco! A continuacion debera de seleccionar una opcion\n\n1) registro\n2) ingresar dinero\n3) quitar dinero\n4) establecer dinero\nQue accion quiere realizar usted?");
     scanf("%d", &prin);
 
     existf();
