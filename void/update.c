@@ -3,7 +3,7 @@
 
 void update(int value)
 {
-    FILE *arch = fopen("bnk.txt", "w");
+    FILE *arch = fopen("movelog.txt", "w");
     fprintf(arch, "%d", value);
     fclose(arch);
 }
