@@ -3,8 +3,8 @@
 
 void existf()
 {
-    FILE *file1 = fopen("bnk.txt", "r");
-    FILE *file2 = fopen("bnkreg.txt", "r");
+    FILE *file1 = fopen("movelog.txt", "r");
+    FILE *file2 = fopen("movelog.txt", "r");
 
     if (!file1)
     {
